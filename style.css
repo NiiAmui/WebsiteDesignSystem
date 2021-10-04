@@ -1,0 +1,189 @@
+body {
+  margin: 0 15%;
+  font-family: "Nanum Gothic";
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #c8841a;
+}
+
+/*Header setting*/
+
+header {
+  width: 1000px;
+  height: 50px;
+  align-items: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+h1 {
+  height: 40px;
+  display: inline-block;
+  margin: 20px 10px;
+  font-weight: 800;
+  font-size: 26px;
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 24px;
+  font-family: "Dancing Script";
+}
+
+p {
+  display: block;
+  font-family: "Spartan";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+nav {
+  float: right;
+  height: 40px;
+  padding: 5px 20px;
+  margin: 20 auto;
+}
+
+nav span {
+  display: inline-block;
+  padding-left: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+/*Main part setting*/
+
+.container {
+  display: block;
+  width: 1000px;
+  border: 1px solid grey;
+  height: 400px;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.title {
+  margin: 20px 10px;
+}
+
+/*Color part settings*/
+
+.color-panel {
+  display: inline-block;
+  min-height: 100px;
+  width: 30%;
+  text-align: center;
+  margin: 20px 10px;
+}
+
+.olive-drab {
+  background-color: #343e20;
+  color: white;
+}
+.color-hex {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-size: 1.5em;
+}
+
+.color-label {
+  text-transform: uppercase;
+  margin-bottom: 29px;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+.saddle-brown {
+  background-color: #984814;
+  color: white;
+}
+
+.wheat {
+  background-color: #eadab4;
+  color: white;
+}
+
+.ochre {
+  background-color: #c8841a;
+  color: white;
+}
+
+.russian-green {
+  background-color: #66917c;
+  color: white;
+}
+
+/*Font part settings*/
+
+.font-panel {
+  display: inline-block;
+  width: 30%;
+  margin: 0 10px;
+}
+
+.font-label {
+  font-size: 1.5em;
+  text-transform: uppercase;
+}
+.spartan {
+  font-family: "Spartan";
+  display: block;
+  font-size: 1.3em;
+}
+
+.regular {
+  font-weight: 400;
+}
+.medium {
+  font-style: medium;
+  font-weight: 500;
+}
+.bold {
+  font-weight: 700;
+}
+.extra-bold {
+  font-weight: 800;
+}
+.black {
+  font-weight: 900;
+}
+
+.dancing-script {
+  font-family: "Dancing Script";
+  display: block;
+  font-size: 1.3em;
+}
+
+.nanum-gothic {
+  font-family: "Nanum Gothic";
+  display: block;
+  font-size: 1.3em;
+}
+
+/*Text styles settings*/
+
+.text-panel {
+  display: inline-block;
+  width: 30%;
+  margin: 0 auto;
+}
+
+/*Footer style settings*/
+
+footer {
+  width: 1000px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  margin: 10px 0;
+  padding: 10px;
+}
+em {
+  font-family: "Dancing Script";
+  font-size: 1.2em;
+}
